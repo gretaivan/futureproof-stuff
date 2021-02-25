@@ -1,0 +1,20 @@
+body{
+    /* reset files default settings */
+    margin: 0px; 
+}
+
+header, nav, aside, footer{
+    padding: 10px;
+ }
+
+nav{
+    /* Taking out of the flow of position */
+    position: absolute; 
+    right: 0;
+}
+
+footer{
+       /* Taking out of the flow of position */
+    position: absolute; 
+    bottom: 0;  
+}

@@ -1,0 +1,34 @@
+/* area names */
+header {grid-area: head;};
+nav{grid-area: nav;}
+aside{grid-area: news;}
+main{grid-area: main;}
+footer{grid-area: footer;}
+
+body{
+    /* reset files default settings */
+    margin: 0px; 
+    height: 100vh;
+    display: grid;
+    /* allocating area names to the locations */
+    grid-template-areas: "header header"
+                         "news nav"
+                         "content content"
+                         "footer footer";
+    /* define sizing of the columns.
+    To take the remaining space you can say auto or use fractions*/
+    grid-template-columns: 25% auto;
+    grid-template-rows: 30px 30px auto 30px;
+}
+
+/* grid or flex-box can be done inside of the other grid */
+article{
+    /* height percentage relative to the parent */
+    height:100%;
+    display: grid; 
+    /* useful feature is to use repeat(numberOfrepeat, measure) */
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: repeat(2, 50%);
+
+}
+
