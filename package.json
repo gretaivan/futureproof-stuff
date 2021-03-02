@@ -1,0 +1,22 @@
+{
+  "name": "stuff",
+  "version": "1.0.0",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/9dcf8fc5-3036-4845-ae91-dfdfacd943ac/deploy-status)](https://app.netlify.com/sites/futureproof-stuff/deploys)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gretaivan/futureproof-stuff.git"
+  },
+  "author": "Greta Ivan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gretaivan/futureproof-stuff/issues"
+  },
+  "homepage": "https://github.com/gretaivan/futureproof-stuff#readme",
+  "dependencies": {
+    "multiple.js": "0.0.1"
+  }
+}

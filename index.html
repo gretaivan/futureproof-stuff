@@ -6,16 +6,57 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/keyframes.css">
+    <script src="multiple.js"></script>
+    <link rel="stylesheet" href="css/multiple.css">
 </head>
 
 
-
+<!--  -->
 <body>
 
-    <div class="container">
-        <h1>Coming Soon!</h1>
-    </div>
+        <main>
+
+            <div class="animationbkg">
+                <div class="container">
+                    <span class="text1"> Welcome to blablabla</span>
+                    <span class="text2"> Your journey to blablabla</span>
+                </div>
+            </div>
+
+            <div class="container">
+                <h1>Coming Soon!</h1>
+            </div>
+            <div class="box1">
+                <h1>SEEK, STRIVE, SUCCEED</h1>
+            </div>
+
+
+            <!--HTML for multiple.js-->
+            <div class="item">
+                <h1>Hello</h1>
+                <p>Test to see it how it should work
+                </p>
+            </div>
+            <div class="item">Content</div>
+            <div class="item">Content</div>
+
+
+
+
+
+            <!-- TRANSLUCENT Cards https://www.npmjs.com/package/translucent -->
+        </main>
+
+
+        <script>
+            var multiple = new Multiple({
+            selector: '.item',
+            background: 'linear-gradient(#273463, #8B4256)'
+            });
+        </script>
+
 </body>
 
 </html>
